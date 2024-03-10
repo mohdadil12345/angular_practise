@@ -1,0 +1,17 @@
+<div class="input_container">
+  <input type="text" placeholder="First Name" #inputele />
+  <br />
+  <br />
+
+  <input type="text" placeholder="Middle Name" #inputele />
+  <br />
+  <br />
+
+  <input type="text" placeholder="Last Name" #inputele /><br /><br />
+
+  <button (click)="handle_click()">Show Full Name</button>
+</div>
+<div class="info">
+  <h1>Full Name : {{fullName}}</h1>
+
+</div>

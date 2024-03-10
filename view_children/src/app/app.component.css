@@ -1,0 +1,33 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+.input_container{
+    border: 1px solid black;
+    width: 300px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.input_container input{
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.input_container button{
+  cursor: pointer;
+  padding: 5px;
+}
+
+.info{
+  border: 1px solid rgb(143, 27, 27);
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 100px;
+}
